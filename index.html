@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Are You Mental?</title>
+    <script>
+        function checkMentalState() {
+            var response = prompt('Do you feel mentally stable? (yes/no)');
+            if (response === 'yes') {
+                alert('Great! Keep it up!');
+            } else if (response === 'no') {
+                alert('Consider talking to someone about it.');
+            } else {
+                alert('Please answer with yes or no.');
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to the Are You Mental Game!</h1>
+    <button onclick="checkMentalState()">Check My Mental State</button>
+</body>
+</html>
